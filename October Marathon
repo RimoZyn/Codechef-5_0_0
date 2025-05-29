@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    	string resul []={"GOLD","SILVER","BRONZE"};
+
+    	int X;
+    	cin>>X;
+
+    	int index=((X<3)?0 : (X>=3 &&(X<6 )? 1:2));
+    cout<<resul[index]<<endl;
+}
