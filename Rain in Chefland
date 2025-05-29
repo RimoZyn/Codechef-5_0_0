@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int T;
+	cin>>T;
+	
+	string rs[]={"LIGHT","HEAVY","MODERATE"};
+	
+	while(T--){
+	    
+	    int X;
+	    cin>>X;
+	    
+	    int index =((X<3)?0:(X<7)?2:1);
+	    cout<<rs[index]<<endl;
+	}
+
+}
