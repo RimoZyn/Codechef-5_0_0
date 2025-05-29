@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int A,B,X,Y;
+
+ cin>>A>>B>>X>>Y;
+
+ string result []={"Equal","Messi","Ronaldo"};
+
+ int index =((A*2+B>X*2+Y)?1 :(A*2+B==X*2+Y)?0:2);
+
+ cout<<result[index]<<endl;
+}
