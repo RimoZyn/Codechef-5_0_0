@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int T;
+	cin>>T;
+	
+	while(T--){
+	    int X,Y;
+	    cin>>X>>Y;
+	    
+	    vector<int> result={X,Y};
+	    sort(result.begin(),result.end());
+	    
+	    int donate =result[1]-result[0];
+	    cout<<donate<<endl;
+	    
+	}
+}
