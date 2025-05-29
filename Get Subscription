@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int T;
+cin>>T;
+
+ while(T--){
+     int X;
+     cin>>X;
+
+    string  result =(X>30)?"Yes":"No";
+    cout<<result <<endl;
+
+ }
+
+}
