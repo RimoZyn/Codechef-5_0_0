@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+string result(int X) {
+    return (X > 24) ? "Yes" : "No";
+}
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int X;
+        cin >> X;
+
+        string dd = result(X);
+        cout << dd << endl;
+    }
+
+    return 0;
+}
