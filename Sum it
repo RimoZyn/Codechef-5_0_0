@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int T;
+	cin>>T;
+	string result []={"Yes","No"};
+	while(T--){
+	    int A,B,C;
+	    cin>>A>>B>>C;
+
+	   int index=(A+B==C)?0:1;
+	   cout<<result[index]<<endl;
+
+	}
+}
+
