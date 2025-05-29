@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int T;
+	cin>>T;
+	
+	while(T--){
+	    
+	    int X;
+	    cin>>X;
+	    
+	    cout<<X-10<<endl;
+	}
+}
+
+//#include <bits/stdc++.h>
+using namespace std;
+
+int age(int chefina){
+return chefina-10;
+}
+
+int main() {
+	int T;
+	cin>>T;
+
+	while(T--){
+
+	    int X;
+	    cin>>X;
+
+	    cout<<age(X)<<endl;
+	}
+}
+
