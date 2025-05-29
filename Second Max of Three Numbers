@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+ int N;
+ cin>>N;
+ while(N--){
+
+    int A,C,B;
+    cin>>A>>B>>C;
+
+   vector<int> nums={A,B,C};
+   sort(nums.begin(),nums.end());
+    cout<<nums[1]<<endl;
+ }
+
+}
