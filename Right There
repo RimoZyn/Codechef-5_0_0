@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+ string cap(int N,int X){
+     return (X>=N)?"Yes":"No";
+ }
+
+
+int main() {
+int T;
+cin>>T;
+
+while(T--){
+    int N,X;
+    cin>>N>>X;
+
+    string result=cap(N,X);
+
+    cout<<result<<endl;
+}
+
+}
+
