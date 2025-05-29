@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int T;
+	cin>>T;
+
+	string result []={"Yes","No"};
+	while(T--){
+	    int X;
+	    cin>>X;
+
+	    int index=(X*4<=1000)?0:1;
+	    cout<<result[index]<<endl;
+
+	}
+
+}
