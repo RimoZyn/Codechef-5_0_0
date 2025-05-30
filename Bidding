@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int T;
+  cin>>T;
+  while(T--){
+    int A,B,C;
+    cin>>A>>B>>C;
+
+    vector<pair<int,string>> v={
+    {A,"Alice"},
+    {B,"Bob"},
+    {C,"Charlie"}
+    };
+    sort(v.begin(),v.end());
+
+    cout<<v[2].second<<endl;
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+return 0;
+}
